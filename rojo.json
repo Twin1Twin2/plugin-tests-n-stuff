@@ -1,0 +1,15 @@
+{
+    "name" : "new-plugin-scripting-tests",
+    "servePort": 8000,
+    "partitions": {
+        "src" : {
+            "path" : "./src",
+            "target" : "ServerStorage.TestPlugin.Plugin"
+        },
+
+        "roact" : {
+            "path" : "./Roact",
+            "target" : "ServerStorage.TestPlugin.Roact"
+        }
+    }
+}
